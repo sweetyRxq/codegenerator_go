@@ -9,6 +9,7 @@ import (
 	"coldchain.go/systematic"
 )
 //GENERATE_START
+
 	func AddResourceCar(stub shim.ChaincodeStubInterface, ResourceCarJson string, fileArr []string) (error, string){
 		var ResourceCarObj *ResourceCar
 	
@@ -119,4 +120,5 @@ import (
 	
 		return nil, "", resArr
 	}
+
 //GENERATE_END
